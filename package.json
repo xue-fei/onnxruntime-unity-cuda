@@ -1,5 +1,5 @@
 {
-  "name": "ai.onnxruntime.onnxruntime-cuda",
+  "name": "onnxruntime-cuda",
   "version": "1.0.1",
   "displayName": "onnxruntime-cuda",
   "description": "onnxruntime for unity",
@@ -15,5 +15,8 @@
     "unity",
     "onnxruntime"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "onnxruntime": "https://github.com/xue-fei/onnxruntime-unity.git#main"
+  }
 }
